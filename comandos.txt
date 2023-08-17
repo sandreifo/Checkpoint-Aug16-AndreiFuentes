@@ -1,0 +1,41 @@
+  346  cd desktop
+  347  mkdir Checkpoint-Aug16-AndreiFuentes
+  348  cd Checkpoint-Aug16-AndreiFuentes
+  349  git init
+  350  git remote
+  351  git remote add origin https://github.com/sandreifo/Checkpoint-Aug16-AndreiFuentes.git
+  352  git remote
+  353  touch main.js
+  354  touch index.html
+  355  git add .
+  356  git commit -m "commit 01 de AndreiFuentes"
+  357  git push origin main
+  358  git branch <feature>
+  359  git branch feature
+  360  git branch
+  361  git checkout feature
+  362  git branch
+  363  mkdir Hardware
+  364  mkdir Software
+  365  mkdir SeguridadInformatica
+  366  cd Hardware
+  367  touch resumen.txt
+  368  cd ..
+  369  cd Software
+  370  touch resumen.txt
+  371  cd ..
+  372  cd SeguridadInformatica
+  373  touch resumen.txt
+  374  cd ..
+  375  git add .
+  376  git commit -m "commit 02 de AndreiFuentes"
+  377  git push origin feature
+  378  git checkout main
+  379  git branch
+  380  mv index.html ResumenSoftware.txt
+  381  mv main.js ResumenHardware.txt
+  382  git add .
+  383  git commit -m "commit 03 de AndreiFuentes"
+  384  git push origin main
+  385  touch comandos.txt
+  386  history
